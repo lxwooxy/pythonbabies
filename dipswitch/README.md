@@ -17,3 +17,6 @@ switch 7 – 64
 switch 8 – 128
 switch 9 – 256
 ```
+### QA is about trying to break things, then struggling to remember how you broke it.
+
+Entry validation catches DMX addresses that are negative or > 512, and rounds floats down to the nearest integer.
