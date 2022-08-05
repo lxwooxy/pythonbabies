@@ -43,7 +43,7 @@ def increment():
     stepStr = stepBox.get()
     n = getAddress()
     if stepStr != "":
-        step = int(stepStr)
+        step = int(float(stepStr))
         n+=step
         if n>=0 and n <=512:
             binaryList = fixed(binary(n))
@@ -56,7 +56,7 @@ def decrement():
     stepStr = stepBox.get()
     n = getAddress()
     if stepStr != "":
-        step = int(stepStr)
+        step = int(float(stepStr))
         n-=step
         if n>=0 and n <=512:
             binaryList = fixed(binary(n))
