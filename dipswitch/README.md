@@ -1,4 +1,4 @@
-# DIP switch converter
+# DIP Switch converter
 ## Using Tkinter to convert a DMX address to a DIP Switch configuration, with event lighting equipment in mind.
 
 DMX512 (Digital Multiplex 512) is used in lighting control, where a lighting universe contains 512 individually controllable channels. An "intelligent" RGB fixture may require 3 channels of data, so a set of such lights may be addressed at DMZ 001, 004, 007 etc. Many fixtures now have LCD panels for adjusting modes and DMX addressing, while older equipment (lights, hazers) come with DIP Switches. Back in the day when I freelanced as a lighting technician, a DIP switch calculator was often needed during load ins. Except when that one guy was working. He knew these configurations by heart. A true mad lad.
