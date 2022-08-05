@@ -10,7 +10,7 @@ def convert():
     global n, binaryList, userStr
     userStr = inputBox.get()
     if userStr != '':
-        n = int(inputBox.get())
+        n = int(float(inputBox.get()))
         inputBox.delete(0,END)
         if n<0 or n>512:
             n=0
@@ -84,7 +84,7 @@ def updateSwitch():
     global res, binaryStr, binaryList
     for num in binaryList:
         binaryStr+=str(num)
-    addressLabel['text'] = 'Address: {0}'.format(userStr)
+    addressLabel['text'] = 'Address: {0}'.format(n)
     binaryLabel['text'] = 'Binary: {0}'.format(binaryStr)
     binaryStr = ''
     res = []
