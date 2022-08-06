@@ -16,6 +16,9 @@ switch 6 – 32
 switch 7 – 64
 switch 8 – 128
 switch 9 – 256
+Switch 10 - 512 
+
+*Toggling Switch 10 (for testing purposes) resets the values of switches 1-9 to 0.
 ```
 
 ### GUIs are cute
