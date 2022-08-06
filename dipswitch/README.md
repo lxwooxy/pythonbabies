@@ -7,19 +7,18 @@ This program converts a DMX address(0-512) to the corresponding DIP Switch confi
 The not so secret math behind the switches is decimal - binary, and the combination of 9 switches in ON(1)/OFF(0) positions add up to the value of the DMX address.
 ```
 Switch - Value
-switch 1 – 1
-switch 2 – 2
-switch 3 – 4
-switch 4 – 8
-switch 5 – 16
-switch 6 – 32
-switch 7 – 64
-switch 8 – 128
-switch 9 – 256
+Switch 1 – 1
+Switch 2 – 2
+Switch 3 – 4
+Switch 4 – 8
+Switch 5 – 16
+Switch 6 – 32
+Switch 7 – 64
+Switch 8 – 128
+Switch 9 – 256
 Switch 10 - 512 
-
-*Toggling Switch 10 (for testing purposes) resets the values of switches 1-9 to 0.
 ```
+Switches 1-9 each update the address and binary number, and toggling Switch 10 (for testing purposes) resets the values of switches 1-9 to 0.
 
 ### GUIs are cute
 Toggling the switches (that are secretly scales with the range of 0-1) also changes the binary code and DMX address, which is not a priority of a DMX-switch converter, but it's still nice to know its there, like that box of hot cocoa powder you keep shelved for rainy days but never use.
