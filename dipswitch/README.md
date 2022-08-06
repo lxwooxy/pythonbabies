@@ -17,6 +17,10 @@ switch 7 – 64
 switch 8 – 128
 switch 9 – 256
 ```
+
+### GUIs are cute
+Toggling the switches (that are secretly scales with the range of 0-1) also changes the binary code and DMX address, which is not a priority of a DMX-switch converter, but it's still nice to know its there, like that box of hot cocoa powder you keep shelved for rainy days but never use.
+
 ### QA is trying to break things, then struggling to remember how you broke it.
 
 Entry validation catches DMX addresses that are negative or > 512, and rounds floats down to the nearest integer.
